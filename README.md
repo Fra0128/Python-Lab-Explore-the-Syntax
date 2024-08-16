@@ -17,45 +17,68 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Topics Covered
 
-### 1. Basic Syntax
-- Variables and Data Types
-  - Integers, Floats, Strings, Booleans
-  - Type Conversion
+### 1. Basic Syntax and Core Data Types
+- Variables and Constants
+- Core Data Types
+  - Numeric Types: `int`, `float`
+  - Text Type: `str`
+  - Boolean Type: `bool`
+  - None Type: `NoneType`
+- Type Conversion
 - Operators
   - Arithmetic Operators
   - Comparison Operators
   - Logical Operators
+  - Assignment Operators
+  - Bitwise Operators
 - Comments
   - Single-line Comments
   - Multi-line Comments
+- Basic Input/Output
+  - `print()` function
+  - `input()` function 
+### 2. Compound Data Types -Data Structures
+- Sequence Types:
+  - Lists (`list`)
+    - Creating and Accessing Lists
+    - List Methods (`append`, `extend`, `insert`, etc.)
+  - Tuples (`tuple`)
+    - Creating and Using Tuples
+    - Tuple Packing and Unpacking
+- Sequence Unpacking (for both lists and tuples)
+- Mapping Type: Dictionaries (`dict`)
+  - Creating and Accessing Dictionaries
+  - Dictionary Methods
+- Set Types: Sets (`set`) and Frozen Sets (`frozenset`)
+  - Creating Sets
+  - Set Operations
+ 
+### 3. Special Data Types and Concepts
+- Numeric Types: `complex`
+- `range` Function and Sequence
+- Binary Types: `bytes`, `bytearray`, `memoryview`
 
-### 2. Control Flow
+
+### 4. Advanced Operations and Comprehensions
+- List Comprehensions
+- Dictionary Comprehensions
+- Set Comprehensions
+- Advanced String Operations
+  
+### 5. Control Flow
 - Conditional Statements
   - `if` Statements
   - `elif` and `else` Clauses
 - Loops
   - `for` Loops
   - `while` Loops
+  - `else` clause in loops
 - Control Statements
   - `break`
   - `continue`
   - `pass`
 
-### 3. Data Structures
-- Lists
-  - Creating and Accessing Lists
-  - List Methods (`append`, `extend`, `insert`, etc.)
-- Tuples
-  - Creating and Using Tuples
-  - Tuple Packing and Unpacking
-- Sets
-  - Creating Sets
-  - Set Operations
-- Dictionaries
-  - Creating and Accessing Dictionaries
-  - Dictionary Methods
-
-### 4. Functions
+### 6. Functions
 - Defining and Calling Functions
 - Arguments and Return Values
   - Positional Arguments
@@ -63,7 +86,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
   - Default Arguments
 - Lambda Functions
 
-## 5. Object-Oriented Programming
+## 7. Object-Oriented Programming
 - Classes and Objects
   - Defining Classes
   - Creating and Using Objects
@@ -72,7 +95,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
   - Multiple Inheritance
 - Encapsulation and Polymorphism
 
-## 6. Modules and Packages
+## 8. Modules and Packages
 - Importing Modules
   - `import` Statement
   - `from ... import` Statement
@@ -81,7 +104,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
   - `__init__.py` Files
   - Importing from Packages
 
-### 7. File Handling
+### 9. File Handling
 - Reading and Writing Files
   - `open()` Function
   - Reading Methods (`read()`, `readline()`, `readlines()`)
@@ -91,13 +114,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Working with JSON
   - `json` Module
 
-### 8. Error Handling
+### 10. Error Handling
 - Try-Except Blocks
 - Raising Exceptions
 - Custom Exceptions
 
-### 9. Advanced Topics
-- List Comprehensions
+### 11. Advanced Topics
 - Generators
   - Generator Functions
   - Generator Expressions
@@ -106,8 +128,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Context Managers
   - `with` Statement
   - Creating Custom Context Managers
+- Asynchronous Programming
+  - `async` and `await` keywords
+  - Coroutines
 
-### 10. Python Standard Library Highlights
+### 12. Python Standard Library Highlights
 - `datetime` Module
   - Working with Dates and Times
 - `random` Module
